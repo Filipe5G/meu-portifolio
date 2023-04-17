@@ -455,6 +455,7 @@ footer .socialMedia{
         flex-direction: column;
         gap: 60px;
         height: 100%;
+        padding: 20px 0;
     }
 
     .latestWorksContentCarousel .card{
