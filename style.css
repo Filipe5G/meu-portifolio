@@ -455,12 +455,12 @@ footer .socialMedia{
         flex-direction: column;
         gap: 60px;
         height: 100%;
-        padding: 20px 0;
     }
 
     .latestWorksContentCarousel .card{
         width: 100%;
         height: 2600px;
+        box-shadow: none;
     }
 
     .back, .next{
