@@ -348,11 +348,11 @@ footer .socialMedia{
 }
 
 .night{
-    background-image: url("assets/moon.svg");
+    background-image: url("moon.svg");
 }
 
 .day{
-    background-image: url("assets/sun.svg");
+    background-image: url("sun.svg");
 }
 
 .presentationBanner.darkTheme{
