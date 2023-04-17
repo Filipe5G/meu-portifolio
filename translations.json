@@ -1,0 +1,22 @@
+{
+    "en": {
+        "about": "About",
+        "books": "Books",
+        "portifolio": "Portifolio",
+        "contact": "Contact",
+        "sm": "Social Media",
+        "prof": "Web Developer",
+        "lastestWork": "SOME OF MY LATEST WORK",
+        "copyRight": "Alrights reserved."
+    },
+    "pt": {
+        "about": "Sobre",
+        "books": "Livros",
+        "portifolio": "Portifólio",
+        "contact": "Contato",
+        "sm": "Redes Sociais",
+        "prof": "Desenvolvedor Web",
+        "lastestWork": "Alguns dos meus últimos trabalhos",
+        "copyRight": "Todos os direitos reservados"
+    }
+}
