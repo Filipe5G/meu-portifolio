@@ -17,6 +17,8 @@ noscript p{
 body{
     font-family: Arial, Helvetica, sans-serif;
     background-color: whitesmoke;
+
+    user-select:none
 }
 
 body.no-scroll {
@@ -35,6 +37,10 @@ header{
     color: whitesmoke;
     background-color: black;
     height: 70px;
+}
+
+img {
+    pointer-events: none;
 }
 
 .topContainer{
@@ -357,20 +363,26 @@ footer .socialMedia{
 
 .presentationBanner.darkTheme{
     /*color: whitesmoke;*/
-    background-color: rgba(0, 0, 0, 0.8);
+    background: rgba(0, 0, 0, 0.8);
 }
 
-.latestWorksHeader.darkTheme{
+.latestWorksHeader.darkTheme {
     color: whitesmoke;
-    background-color: unset;
+    background: none;
 }
 
 .darkTheme{
-    background-color: rgba(0, 0, 0, 0.8);
+    background: rgba(0, 0, 0, 0.8);
 }
 
 .card.darkTheme{
-    background-color: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.card .infoCard.darkTheme ,
+.presentationBanner .profissionalInfo #prof.darkTheme {
+    color: whitesmoke;
+    background: none;
 }
 
 @media screen and (max-width: 760px){
