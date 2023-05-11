@@ -434,12 +434,7 @@ footer .socialMedia{
         display: flex;
     }
 
-    .profissionalInfo{
-        color: white;
-    }
-
     .profissionalInfo p{
-        background-color: black;
         padding: 4px 10px;
     }
 
