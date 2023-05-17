@@ -1,15 +1,5 @@
 {
-    "en": {
-        "about": "About",
-        "books": "Books",
-        "portifolio": "Portifolio",
-        "contact": "Contact",
-        "sm": "Social Media",
-        "prof": "Web Developer",
-        "lastestWork": "SOME OF MY LATEST WORK",
-        "copyRight": "All rights reserved."
-    },
-    "pt": {
+    "pt-BR": {
         "about": "Sobre",
         "books": "Livros",
         "portifolio": "Portifólio",
@@ -17,6 +7,18 @@
         "sm": "Redes Sociais",
         "prof": "Desenvolvedor Web",
         "lastestWork": "Alguns dos meus últimos trabalhos",
-        "copyRight": "Todos os direitos reservados"
+        "copyRight": "Todos os direitos reservados",
+        "title": "Diário de um sonhador"
+    },
+    "en-US": {
+        "about": "About",
+        "books": "Books",
+        "portifolio": "Portifolio",
+        "contact": "Contact",
+        "sm": "Social Media",
+        "prof": "Web Developer",
+        "lastestWork": "SOME OF MY LATEST WORK",
+        "copyRight": "All rights reserved.",
+        "title": "Diary of a dreamer"
     }
 }

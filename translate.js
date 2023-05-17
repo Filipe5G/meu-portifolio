@@ -1,5 +1,5 @@
 let translations = {}; //Objeto vazio para armazenar as traduções
-let language = localStorage.getItem('language') || 'en'; //Idioma padrão
+let language = localStorage.getItem('language') || 'pt-BR'; //Idioma padrão
 
 //Carrega as traduções do arquivo JSON
 fetch('translations.json')
@@ -18,6 +18,7 @@ fetch('translations.json')
         document.getElementById("prof").textContent = translations[language].prof;
         document.getElementById("lastestWork").textContent = translations[language].lastestWork;
         document.getElementById("copy").textContent = translations[language].copyRight;
+        document.querySelector("title").textContent = translations[language].title;
     }
 
     //Função para definir o idioma
