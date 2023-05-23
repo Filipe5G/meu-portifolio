@@ -1,7 +1,7 @@
 let storage = localStorage.getItem("dark")
 const selector = document.querySelector(".toggleMenu")
 const close = document.querySelector(".closeBtn")
-const navElement = document.querySelector("nav")
+let navElement = document.querySelector("nav")
 
 const showMenu = () =>{
     document.querySelector("nav").classList.add("showMenu")
