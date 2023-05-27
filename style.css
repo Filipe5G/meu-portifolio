@@ -50,6 +50,10 @@ img {
     width: 80%;
 }
 
+.topContainer .logo h1 {
+    font-size: 16px;
+}
+
 /*Toggle */
 .toggleMenu {
     display: none;
@@ -163,6 +167,10 @@ nav ul li a:hover {
     background-repeat: no-repeat;
     background-position: center;
     position: relative;
+}
+
+.presentationBanner h2 { 
+    font-size: 24px;
 }
 
 .profissionalInfo {
@@ -282,7 +290,7 @@ footer .socialMedia {
     right: 40px;
 }
 
-.back, .next {
+.backButton, .nextButton {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -299,16 +307,16 @@ footer .socialMedia {
     border: solid 1px rgba(0, 0, 0, 0.5);
 }
 
-.back:hover, .next:hover {
+.backButton:hover, .nextButton:hover {
     color: white;
     opacity: 1;
 }
 
-.back {
+.backButton {
     left: -20px;
 }
 
-.next {
+.nextButton {
     right: -20px;
 }
 
@@ -477,7 +485,7 @@ footer .socialMedia {
         box-shadow: none;
     }
 
-    .back, .next {
+    .backButton, .nextButton {
         display: none;
     }
 
